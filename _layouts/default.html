@@ -14,16 +14,11 @@ layout: compress
   <body>
 
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    <!-- Navigation removed for simple single-page site -->
 
     {{ content }}
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
+    <!-- Footer removed for clean single-page site -->
 
     {% include scripts.html %}
 
